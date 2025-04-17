@@ -24,8 +24,7 @@ const Componen = () => {
           </span>
         </h2>
         <h6 className="font-[400]  text-[16px] text-center">
-          Based on the Tailwind CSS utility classes, Preline UI's prebuilt
-          components and UI <br /> elements help you quickly design and
+          Based on the Tailwind CSS utility classes, Preline UI&apos;s prebuilt components and UI <br /> elements help you quickly design and
           customize responsive mobile-first websites.
         </h6>
         <div></div>

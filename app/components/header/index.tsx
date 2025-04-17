@@ -48,7 +48,7 @@ const Navbar = () => {
             <button
               className="w-[30px] h-[30px] transition-all flex items-center justify-center rounded-md hover:bg-[#55555377]"
               onClick={() => {
-                setTheme("light"), setlocalTheme("dark");
+                setTheme("light");setlocalTheme("dark");
               }}
             >
               <RxMoon />
@@ -57,7 +57,7 @@ const Navbar = () => {
             <button
               className="w-[30px] h-[30px] transition-all flex items-center justify-center rounded-md hover:bg-[#55555377]"
               onClick={() => {
-                setTheme("dark"), setlocalTheme("light");
+                setTheme("dark") ; setlocalTheme("light");
               }}
             >
               <IoSunnyOutline />
