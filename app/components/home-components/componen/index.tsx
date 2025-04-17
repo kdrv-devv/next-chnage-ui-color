@@ -10,7 +10,7 @@ const Componen = () => {
       <div className="w-[90%] m-auto mt-[50px]">
         <h2 className="font-[700] leading-[60px] text-[60px] text-center">
           700+ <br />
-          Tailwind CSS{" "}
+          Tailwind CSS
           <span
             className={clsx("text-white", {
               "text-gray-100": color === "grey",
