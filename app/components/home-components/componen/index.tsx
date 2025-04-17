@@ -1,11 +1,10 @@
-"use client"
+"use client";
 
-import { useAppDispatch, useAppSelector } from "@/app/hooks/useRedux";
+import {useAppSelector } from "@/app/hooks/useRedux";
 import clsx from "clsx"; // Dynamic class'larni to'g'ri ishlatish uchun
 
 const Componen = () => {
   const color = useAppSelector((state) => state.color.color);
-  const dispatch = useAppDispatch();
   return (
     <section>
       <div className="w-[90%] m-auto mt-[50px]">

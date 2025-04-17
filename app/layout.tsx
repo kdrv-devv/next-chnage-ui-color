@@ -4,8 +4,6 @@ import "./globals.css";
 import Navbar from "./components/header";
 import { ThemeProvider } from "./components/theme-provider";
 import { Providers } from "./providers/redux-provider";
-import { Provider } from "react-redux";
-import store from "./redux/store";
 
 const inter = Inter({
   variable: "--inter",

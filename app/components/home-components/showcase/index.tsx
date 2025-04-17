@@ -4,7 +4,6 @@ import { changeColor } from "@/app/redux/color-slice";
 import { Button } from "@/components/ui/button";
 import { Calendar } from "@/components/ui/calendar";
 import { RadioGroup, RadioGroupItem } from "@/components/ui/radio-group";
-import { useState } from "react";
 import { LuPaintbrushVertical } from "react-icons/lu";
 import clsx from "clsx"; // Dynamic class'larni to'g'ri ishlatish uchun
 
